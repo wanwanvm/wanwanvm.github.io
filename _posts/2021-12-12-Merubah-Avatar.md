@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Merubah Avatar pada ekyll !
+title: Merubah Avatar pada Jekyll !
 ---
 
 Carilah file  the _config.yml  yang terdapat di root repository anda (di tunjukan seperti di bawah ini).
+![_config.yml]({{ site.baseurl }}/images/contigyml.png)
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
 
