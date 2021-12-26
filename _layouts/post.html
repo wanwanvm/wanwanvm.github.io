@@ -14,8 +14,10 @@ layout: default
   </div>
 
   {% include disqus.html %}
-</article>
-
-{% if site.disqus_shortname and page.comments != false %}
+  
+  {% if site.disqus_shortname and page.comments != false %}
   {% include comment.html %}
 {% endif %}
+
+</article>
+
