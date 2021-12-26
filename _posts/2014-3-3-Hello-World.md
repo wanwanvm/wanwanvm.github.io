@@ -1,10 +1,14 @@
 ---
 layout: post
-title: You're up and running!
+title: Membuat Artikel di Jekyll
+tags: [basic]
+fullview: false
+category : tutorial
+description : ini adalah demo dari tutorial yang ada di linuxsec.org
+comments: true
 ---
-
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
-
-![_config.yml]({{ site.baseurl }}/images/config.png)
-
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+<p style="text-align:justify;">Ini adalah contoh postingan di jekyll dengan align justify atau rata kanan kiri yang dibuat dengan remarkable. Jika ada yang ditanyakan silahkan komentar.</p>
+Ini adalah contoh format menampilkan gambar dalam markdown :
+![Azunyan](https://3.bp.blogspot.com/-jFUYJlcFR4s/WDZALylcM9I/AAAAAAAAAC4/e-JJokwZzDcVZWDVfIYEdjmAORkZwZZQACLcB/s640/azusa.jpg)
+Ini adalah contoh format tulisan tebal.
+**Makan Bang**
