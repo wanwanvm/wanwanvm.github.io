@@ -10,7 +10,7 @@ comments: true
 Benyak pertanyaan yang muncul di benak saya saat Dosen Saya **Dr. Arya Adhyaksa Waskita** menyampaikan tentang Graph Database menggunakan Neo4j
 dan akhirnya saya mencari informasi apa itu Graph Database dan Neo4j itu sendiri
 
-** Apa Graph Database ? **
+**Apa Graph Database ?**
 jika saya sadur dari wikipedia
 https://id.wikipedia.org/wiki/Graph_database
 Graph database dalam dunia ilmu komputer adalah database yang menggunakan struktur data graph yg memiliki komponen node, edge dan properties unutk merepresentasikan penyimpanan data. Graph database menyediakan index-free adjacency yang artinya setiap elemen berisi direct pointer ke adjacent element dan tidak membutuhkan lagi suatu index lookups.
@@ -26,5 +26,5 @@ berdasarkan sifat nya
 Dibanding dengan relational database, graph database sering lebih cepat untuk himpunan data asosiatif, dan memetakan lebih langsung ke struktur aplikasi berorientasi objek (object-oriented application). Database ini dapat diskala lebih alamiah ke himpunan data lebih besar karena umumnya tidak membutuhkan operasi "join" yang mahal. Karena kurang tergantung dari skema kaku, mereka lebih cocok untuk dikelola secara ad hoc dan data yang berubah-ubah dengan skema yang terus diperbarui. Sebaliknya, relational database umumnya lebih cepat dalam mengerjakan operasi yang sama dengan jumlah elemen data yang lebih banyak.
 
 
-** Apa Neo4j? **
+**Apa Neo4j?**
 
