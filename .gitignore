@@ -1,28 +1,32 @@
-/hugo
-docs/public*
-/.idea
-.vscode/*
-hugo.exe
-*.test
-*.prof
-nohup.out
-cover.out
-*.swp
-*.swo
+# OS
 .DS_Store
-*~
-vendor/*/
-*.bench
-*.debug
-coverage*.out
+Thumbs.db
 
-dock.sh
+# IDEs
+.buildpath
+.project
+.settings/
+.build/
+.idea/
+public/
+nbproject/
 
-GoBuilds
-dist
+# Vagrant
+.vagrant/
 
-hugolib/hugo_stats.json
-resources/sunset.jpg
+# FE Setup
+.bin/node_modules/
+/node_modules/
+src/node_modules/
+exampleSite/node_modules/
+src/npm-debug.log.*
+npm-debug.log
+/npm-debug.log*
+/dist/
+/src/client.config.json
+/styleguide/
+/docs/
 
-vendor
+/junit.xml
+partials/structure/stylesheet.html
 

@@ -1,224 +1,321 @@
-<a href="https://gohugo.io/"><img src="https://raw.githubusercontent.com/gohugoio/gohugoioTheme/master/static/images/hugo-logo-wide.svg?sanitize=true" alt="Hugo" width="565"></a>
+# Ananke, A theme for [Hugo](http://gohugo.io/), a framework for building websites.
 
-A Fast and Flexible Static Site Generator built with love by [bep](https://github.com/bep), [spf13](http://spf13.com/) and [friends](https://github.com/gohugoio/hugo/graphs/contributors) in [Go][].
+The intent of this theme is to provide a solid starting place for Hugo sites with basic features and include best practices for performance, accessibility, and rapid development.
 
-[Website](https://gohugo.io) |
-[Forum](https://discourse.gohugo.io) |
-[Documentation](https://gohugo.io/getting-started/) |
-[Installation Guide](https://gohugo.io/getting-started/installing/) |
-[Contribution Guide](CONTRIBUTING.md) |
-[Twitter](https://twitter.com/gohugoio)
+![screenshot](https://raw.githubusercontent.com/budparr/gohugo-theme-ananke/master/images/screenshot.png)
 
-[![GoDoc](https://godoc.org/github.com/gohugoio/hugo?status.svg)](https://godoc.org/github.com/gohugoio/hugo)
-[![Tests on Linux, MacOS and Windows](https://github.com/gohugoio/hugo/workflows/Test/badge.svg)](https://github.com/gohugoio/hugo/actions?query=workflow%3ATest)
-[![Go Report Card](https://goreportcard.com/badge/github.com/gohugoio/hugo)](https://goreportcard.com/report/github.com/gohugoio/hugo)
+[DEMO](https://gohugo-ananke-theme-demo.netlify.com/)
 
-## Overview
+Features
 
-Hugo is a static HTML and CSS website generator written in [Go][].
-It is optimized for speed, ease of use, and configurability.
-Hugo takes a directory with content and templates and renders them into a full HTML website.
+- Responsive
+- Accessible
+- Contact form
+- Custom Robots.txt (changes values based on environment)
+- Internal templates for meta data, google analytics, and DISQUS or COMMENTO comments
+- RSS Discovery
+- Table of Contents (must declare `toc: true` in post parameter)
+- Stackbit configuration ([Stackbit](https://www.stackbit.com))
 
-Hugo relies on Markdown files with front matter for metadata, and you can run Hugo from any directory.
-This works well for shared hosts and other systems where you don’t have a privileged account.
+Also includes examples of Hugo Features or Functions:
 
-Hugo renders a typical website of moderate size in a fraction of a second.
-A good rule of thumb is that each piece of content renders in around 1 millisecond.
+- Pagination (internal template)
+- Taxonomies
+- Archetypes
+- Custom shortcode
+- Related content
+- Hugo built-in menu
+- i18n
+- `with`
+- `HUGO_ENV`
+- `first`
+- `after`
+- `sort`
+- Site LanguageCode
+- `where`
+- Content Views
+- Partials
+- Template layouts (type "post" uses a special list template, single template, and a content view)
+- Tags
+- `len`
+- Conditionals
+- `ge` (greater than or equal to)
+- `.Site.Params.mainSections` to avoid hard-coding "blog," etc. [[release note](https://github.com/spf13/hugo/blob/66ec6305f6cb450ddf9c489854146bac02f7dca1/docs/content/meta/release-notes.md#enhancements)]
 
-Hugo is designed to work well for any kind of website including blogs, tumbles, and docs.
 
-#### Supported Architectures
+This theme uses the "Tachyons" CSS library. This will allow you to manipulate the design of the theme by changing class names in HTML without touching the original CSS files. For more information see the [Tachyons website](http://tachyons.io/).
 
-Currently, we provide pre-built Hugo binaries for Windows, Linux, FreeBSD, NetBSD, DragonFly BSD, OpenBSD, macOS (Darwin), and [Android](https://gist.github.com/bep/a0d8a26cf6b4f8bc992729b8e50b480b) for x64, i386 and ARM architectures.
 
-Hugo may also be compiled from source wherever the Go compiler tool chain can run, e.g. for other operating systems including Plan 9 and Solaris.
 
-**Complete documentation is available at [Hugo Documentation](https://gohugo.io/getting-started/).**
+## Installation
 
-## Choose How to Install
+### As a Hugo Module (recommended)
 
-If you want to use Hugo as your site generator, simply install the Hugo binaries.
-The Hugo binaries have no external dependencies.
+> ⚠️ If you installed a [Hugo binary](https://gohugo.io/getting-started/installing/#binary-cross-platform), you may not have Go installed on your machine. To check if Go is installed:
+> ```
+> $ go version
+> ```
+>  Go modules were considered production ready in v1.14. [Download Go](https://golang.org/dl/). 
 
-To contribute to the Hugo source code or documentation, you should [fork the Hugo GitHub project](https://github.com/gohugoio/hugo#fork-destination-box) and clone it to your local machine.
+1. From your project's root directory, initiate the hugo module system if you haven't already:
 
-Finally, you can install the Hugo source code with `go`, build the binaries yourself, and run Hugo that way.
-Building the binaries is an easy task for an experienced `go` getter.
+   ```
+   $ hugo mod init github.com/<your_user>/<your_project>
+   ```
 
-### Install Hugo as Your Site Generator (Binary Install)
+2. Add the theme's repo to your `config.toml`:
 
-Use the [installation instructions in the Hugo documentation](https://gohugo.io/getting-started/installing/).
+   ```toml
+   theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
+   ```
 
-### Build and Install the Binaries from Source (Advanced Install)
+### As Git Submodule
 
-#### Prerequisite Tools
-
-* [Git](https://git-scm.com/)
-* [Go (we test it with the last 2 major versions; but note that Hugo 0.81.0 only builds with >= Go 1.16.)](https://golang.org/dl/)
-
-#### Fetch from GitHub
-
-Since Hugo 0.48, Hugo uses the Go Modules support built into Go 1.11 to build. The easiest is to clone Hugo in a directory outside of `GOPATH`, as in the following example:
-
-```bash
-mkdir $HOME/src
-cd $HOME/src
-git clone https://github.com/gohugoio/hugo.git
-cd hugo
-go install
-```
-
-**If you are a Windows user, substitute the `$HOME` environment variable above with `%USERPROFILE%`.**
-
-If you want to compile with Sass/SCSS support use `--tags extended` and make sure `CGO_ENABLED=1` is set in your go environment. If you don't want to have CGO enabled, you may use the following command to temporarily enable CGO only for hugo compilation:
-
-```bash
-CGO_ENABLED=1 go install --tags extended
-```
-
-## The Hugo Documentation
-
-The Hugo documentation now lives in its own repository, see https://github.com/gohugoio/hugoDocs. But we do keep a version of that documentation as a `git subtree` in this repository. To build the sub folder `/docs` as a Hugo site, you need to clone this repo:
-
-```bash
-git clone git@github.com:gohugoio/hugo.git
-```
-## Contributing to Hugo
-
-For a complete guide to contributing to Hugo, see the [Contribution Guide](CONTRIBUTING.md).
-
-We welcome contributions to Hugo of any kind including documentation, themes,
-organization, tutorials, blog posts, bug reports, issues, feature requests,
-feature implementations, pull requests, answering questions on the forum,
-helping to manage issues, etc.
-
-The Hugo community and maintainers are [very active](https://github.com/gohugoio/hugo/pulse/monthly) and helpful, and the project benefits greatly from this activity.
-
-### Asking Support Questions
-
-We have an active [discussion forum](https://discourse.gohugo.io) where users and developers can ask questions.
-Please don't use the GitHub issue tracker to ask questions.
-
-### Reporting Issues
-
-If you believe you have found a defect in Hugo or its documentation, use
-the GitHub issue tracker to report the problem to the Hugo maintainers.
-If you're not sure if it's a bug or not, start by asking in the [discussion forum](https://discourse.gohugo.io).
-When reporting the issue, please provide the version of Hugo in use (`hugo version`).
-
-### Submitting Patches
-
-The Hugo project welcomes all contributors and contributions regardless of skill or experience level.
-If you are interested in helping with the project, we will help you with your contribution.
-Hugo is a very active project with many contributions happening daily.
-
-We want to create the best possible product for our users and the best contribution experience for our developers,
-we have a set of guidelines which ensure that all contributions are acceptable.
-The guidelines are not intended as a filter or barrier to participation.
-If you are unfamiliar with the contribution process, the Hugo team will help you and teach you how to bring your contribution in accordance with the guidelines.
-
-For a complete guide to contributing code to Hugo, see the [Contribution Guide](CONTRIBUTING.md).
-
-[Go]: https://golang.org/
-[Hugo Documentation]: https://gohugo.io/overview/introduction/
-
-## Dependencies
-
-Hugo stands on the shoulder of many great open source libraries.
-
-If you run `hugo env -v` you will get a complete and up to date list.
-
-In Hugo 0.89.0 that list is, in lexical order:
+Inside the folder of your Hugo site run:
 
 ```
-cloud.google.com/go/storage="v1.10.0"
-cloud.google.com/go="v0.87.0"
-github.com/Azure/azure-pipeline-go="v0.2.2"
-github.com/Azure/azure-storage-blob-go="v0.9.0"
-github.com/BurntSushi/locker="v0.0.0-20171006230638-a6e239ea1c69"
-github.com/BurntSushi/toml="v0.3.1"
-github.com/PuerkitoBio/purell="v1.1.1"
-github.com/PuerkitoBio/urlesc="v0.0.0-20170810143723-de5bf2ad4578"
-github.com/alecthomas/chroma="v0.9.4"
-github.com/armon/go-radix="v1.0.0"
-github.com/aws/aws-sdk-go="v1.41.14"
-github.com/bep/debounce="v1.2.0"
-github.com/bep/gitmap="v1.1.2"
-github.com/bep/godartsass="v0.12.0"
-github.com/bep/golibsass="v1.0.0"
-github.com/bep/gowebp="v0.1.0"
-github.com/bep/tmc="v0.5.1"
-github.com/cli/safeexec="v1.0.0"
-github.com/cpuguy83/go-md2man/v2="v2.0.0"
-github.com/disintegration/gift="v1.2.1"
-github.com/dlclark/regexp2="v1.4.0"
-github.com/dustin/go-humanize="v1.0.0"
-github.com/evanw/esbuild="v0.13.12"
-github.com/fsnotify/fsnotify="v1.5.1"
-github.com/getkin/kin-openapi="v0.80.0"
-github.com/ghodss/yaml="v1.0.0"
-github.com/go-openapi/jsonpointer="v0.19.5"
-github.com/go-openapi/swag="v0.19.5"
-github.com/gobuffalo/flect="v0.2.3"
-github.com/gobwas/glob="v0.2.3"
-github.com/gohugoio/go-i18n/v2="v2.1.3-0.20210430103248-4c28c89f8013"
-github.com/gohugoio/locales="v0.14.0"
-github.com/gohugoio/localescompressed="v0.14.0"
-github.com/golang/groupcache="v0.0.0-20200121045136-8c9f03a8e57e"
-github.com/golang/protobuf="v1.5.2"
-github.com/google/go-cmp="v0.5.6"
-github.com/google/uuid="v1.1.2"
-github.com/google/wire="v0.4.0"
-github.com/googleapis/gax-go/v2="v2.0.5"
-github.com/googleapis/gax-go="v2.0.2+incompatible"
-github.com/gorilla/websocket="v1.4.2"
-github.com/inconshreveable/mousetrap="v1.0.0"
-github.com/jdkato/prose="v1.2.1"
-github.com/jmespath/go-jmespath="v0.4.0"
-github.com/kyokomi/emoji/v2="v2.2.8"
-github.com/mailru/easyjson="v0.0.0-20190626092158-b2ccc519800e"
-github.com/mattn/go-ieproxy="v0.0.1"
-github.com/mattn/go-isatty="v0.0.14"
-github.com/mattn/go-runewidth="v0.0.9"
-github.com/miekg/mmark="v1.3.6"
-github.com/mitchellh/hashstructure="v1.1.0"
-github.com/mitchellh/mapstructure="v1.4.2"
-github.com/muesli/smartcrop="v0.3.0"
-github.com/niklasfasching/go-org="v1.5.0"
-github.com/olekukonko/tablewriter="v0.0.5"
-github.com/pelletier/go-toml/v2="v2.0.0-beta.3.0.20210727221244-fa0796069526"
-github.com/pkg/errors="v0.9.1"
-github.com/rogpeppe/go-internal="v1.8.0"
-github.com/russross/blackfriday/v2="v2.0.1"
-github.com/russross/blackfriday="v1.5.3-0.20200218234912-41c5fccfd6f6"
-github.com/rwcarlsen/goexif="v0.0.0-20190401172101-9e8deecbddbd"
-github.com/sanity-io/litter="v1.5.1"
-github.com/sass/libsass="3.6.5"
-github.com/shurcooL/sanitized_anchor_name="v1.0.0"
-github.com/spf13/afero="v1.6.0"
-github.com/spf13/cast="v1.4.1"
-github.com/spf13/cobra="v1.2.1"
-github.com/spf13/fsync="v0.9.0"
-github.com/spf13/jwalterweatherman="v1.1.0"
-github.com/spf13/pflag="v1.0.5"
-github.com/tdewolff/minify/v2="v2.9.22"
-github.com/tdewolff/parse/v2="v2.5.21"
-github.com/webmproject/libwebp="v1.2.0"
-github.com/yuin/goldmark-highlighting="v0.0.0-20200307114337-60d527fdb691"
-github.com/yuin/goldmark="v1.4.2"
-go.opencensus.io="v0.23.0"
-gocloud.dev="v0.20.0"
-golang.org/x/image="v0.0.0-20210220032944-ac19c3e999fb"
-golang.org/x/net="v0.0.0-20210614182718-04defd469f4e"
-golang.org/x/oauth2="v0.0.0-20210628180205-a41e5a781914"
-golang.org/x/sync="v0.0.0-20210220032951-036812b2e83c"
-golang.org/x/sys="v0.0.0-20210908233432-aa78b53d3365"
-golang.org/x/text="v0.3.7"
-golang.org/x/xerrors="v0.0.0-20200804184101-5ec99f83aff1"
-google.golang.org/api="v0.51.0"
-google.golang.org/genproto="v0.0.0-20210716133855-ce7ef5c701ea"
-google.golang.org/grpc="v1.39.0"
-google.golang.org/protobuf="v1.27.1"
-gopkg.in/yaml.v2="v2.4.0"
+$ git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+```
+For more information read the official [setup guide](//gohugo.io/overview/installing/) of Hugo.
+
+
+
+## Getting started
+
+After installing the theme successfully it requires a just a few more steps to get your site running.
+
+
+### The config file
+
+Take a look inside the [`exampleSite`](https://github.com/theNewDynamic/gohugo-theme-ananke/tree/master/exampleSite) folder of this theme. You'll find a file called [`config.toml`](https://github.com/theNewDynamic/gohugo-theme-ananke/blob/master/exampleSite/config.toml). To use it, copy the [`config.toml`](https://github.com/theNewDynamic/gohugo-theme-ananke/blob/master/exampleSite/config.toml) in the root folder of your Hugo site. Feel free to change the strings in this theme.
+
+You may need to delete the line: `themesDir = "../.."`
+
+
+### Add comments
+
+To enable comments, add following to your config file:
+
+- DISQUS: `disqusShortname = YOURSHORTNAME`
+- COMMENTO:
+  ```
+  [params]
+    commentoEnable = true
+  ```
+
+### Change the hero background
+
+For any page or post you can add a featured image by including the local path in front matter (see content in the `exampleSite/content/_readme.md` file for examples): `featured_image: '/images/gohugo-default-sample-hero-image.jpg'`
+
+#### Featured image as Page Resources
+If user is using [Page Resources](https://gohugo.io/content-management/page-resources/), the theme will try and match the `featured_image` from with a page resource of type `image` and use its relative permalink. If no `featured_image` is set, the theme will look for a Page Resource of type `image` whose filepath incudes either `cover` or `feature` 
+
+#### Other hero settings
+If you would like to hide the header text on the featured image on a page, set `omit_header_text` to `true`. See `exampleSite/content/contact.md` for an example.
+
+You don't need an image though. The default background color is black, but you can change the color, by changing the default color class in the config.toml file. Choose a background color from any on the [Tachyons](http://tachyons.io/docs/themes/skins/) library site, and preface it with "bg-"
+
+example: `background_color_class = "bg-blue"` or `background_color_class = "bg-gray"`
+
+
+
+### Activate the contact form
+
+This theme includes a shortcode for a contact form that you can add to any page (there is an example on the contact page in the exampleSite folder). One option is to use [formspree.io](//formspree.io/) as proxy to send the actual email. Each month, visitors can send you up to one thousand emails without incurring extra charges. Visit the Formspree site to get the "action" link and add it to your shortcode like this:
+
+```
+{{< form-contact action="https://formspree.io/your@email.com" >}}
 ```
 
+### Social Follow + Share
+
+The theme automatically adds "Follow" link icons to the header and footer and "Share" link icons to pages unless `disable_share` parameter is set to true either on the site level (site params) or page level (front matter). Each built-in services sports a label, an icon and a color.
+
+In order to register a service to be used, user must add an `ananke_socials` parameter to its project configuration file and list them through it in the desired order. Each entry must bear a 
+- name*: It matches the built-in service reference (Ex: twitter, github)
+- url*: The url of the handle's profile on the service (Ex: https://twitter.com/theNewDynamic, https://github.com/
+theNewDynamic)
+
+```yaml
+params:
+  ananke_socials:
+  - name: twitter
+    url: https://twitter.com/theNewDynamic
+  - name: github
+    url: https://github.com/theNewDynamic
+```
+
+If user needs to overwrite default `color` and `label` of the service, they simply need to append the following to the entry:
+- label: The displayed name of the service to be used to popuplate `[title]` attributes and read-only. (Ex: Twitter, GitHub)
+- color: Used for styling purposes. (Ex: '#1da1f2', '#6cc644')
+
+```yaml
+params:
+  ananke_socials:
+  - name: twitter
+    url: https://twitter.com/theNewDynamic
+    label: TND Twitter
+  - name: github
+    url: https://github.com/theNewDynamic
+    label: TND GitHub Account
+    color: '#ff6800'
+```
+
+#### Social Icons Customization
+
+On top of easily customizing the built-in services' label and color, user can overwrite their icon by adding an svg file at `/assets/ananke/socials` with a filename matching the service's name.
+For example, in order to use your own GitHub icon, simply add an svg file at `/assets/ananke/socials/github.svg`
+
+#### Built-in Services
+Here is the list of built-in services. Those marked with an `*` are also part of the "Share" module.
+
+- twitter*
+- instagram
+- youtube
+- github
+- gitlab
+- keybase
+- linkedin*
+- medium
+- mastodon
+- slack
+- stackoverflow
+- facebook*
+- rss
+
+#### Complement
+
+In order to add an unkown service (absent from the list above), you simply need to add all three settings to `ananke_socials`: name, url, label, color, and optionally add an icon file matching the `name` to the `assets/ananke/socials` directory. In the absence of an icon, the theme will print the service's label.
+
+### Update font or body classes
+
+The theme is set, by default, to use a near-white background color and the "Avenir" or serif typeface. You can change these in your config file with the `body_classes` parameter, like this:
+
+```
+[params]
+  body_classes = "avenir bg-near-white"
+```
+
+which will give you a body class like this:
+
+```
+<body class="avenir bg-near-white">
+```
+
+note: The `body_classes` parameter will not change the font used in post content. To do this, you must use the `post_content_classes` parameter.
+
+You can find a list of available typefaces [here](https://github.com/tachyons-css/tachyons/blob/v4.7.0/src/_font-family.css).
+
+And a list of background colors [here](https://github.com/tachyons-css/tachyons/blob/v4.7.0/src/_skins.css#L96).
+
+
+_n.b. in future versions we will likely separate the typeface and other body classes._
+
+
+### CSS
+
+Ananke stylesheet is built with Hugo Pipes's [Asset Bundling](https://gohugo.io/hugo-pipes/bundling/#readout) alone to maximize compatibiliy. The theme simply bundles its several files into one minified and fingerprinted (in production) CSS file.
+
+Ananke uses [Tachyon.io](http://tachyons.io/) utility class library.
+
+#### Custom CSS
+
+WARNING: Pending resolution of this [discussion](https://github.com/theNewDynamic/gohugo-theme-ananke/discussions/452#discussioncomment-1865301), Custom CSS only works with Hugo Extended
+
+In order to complement the default CSS with your own, you can add custom css files to the project. 
+
+1. Just add a `assets/ananke/css` directory to your project and add the file(s) in it.
+2. Register the files using the `custom_css` key in your site's parameter. The path referenced in the parameter should be relative to the `assets/ananke/css` folder. 
+
+The css files will be added in their registered order to final `main.css` file.
+
+For example, if your css files are `assets/ananke/css/custom.css` and `assets/ananke/special.css` then add the following to the config file:
+
+```
+  [params]
+    custom_css = ["custom.css","special.css"]
+```
+
+__Note on retrocompatibiliy for custom css__: If the files registered through the `custom_css` setting are not found in `assets/ananke/css` the theme will expect them to live at the given path relative to the static directory and load them as <link> requests.
+
+### Show Reading Time and Word Count
+
+If you add a key of `show_reading_time` true to either the Config Params, a page or section's front matter, articles will show the reading time and word count.
+
+
+### Adding Scripts to the Page Head
+
+Some scripts need to be added within the page head. To add your own scripts to the page head, simply insert them into the `head-additions.html` partial located in the `layouts/partials` folder.
+
+
+### Logo
+
+You can replace the title of your site in the top left corner of each page with your own logo. To do that put your own logo into the `static` directory of your website, and add the `site_logo` parameter to the site params in your config file. For example:
+
+```
+[params]
+  site_logo = "img/logo.svg"
+```
+
+### Set Content Font Color
+
+You can set the font color of the main content both globally and on individual pages:
+
+Globally:
+Set the `text_color` param in the `config.toml` file.
+```
+[params]
+  text_color = "green"
+```
+
+Individual Page (prioritized over global):
+Set the `text_color` param in a page's markdown file front matter.
+
+note: The value of `text_color` must be a valid tachyons color class. Alist can be found [here](http://tachyons.io/docs/themes/skins/).
+
+
+### Localize date format
+
+Dates of blog posts and single pages are rendered with the default date format commonly used in the USA and Canada. It is possible to specify a different format.
+
+```
+[params]
+  date_format = "2. January 2006"
+```
+
+See hugo's documentation of the [`dateFormat` function](https://gohugo.io/functions/dateformat/) for more details.
+
+
+### Nearly finished
+
+In order to see your site in action, run Hugo's built-in local server.
+
+`$ hugo server`
+
+Now enter [`localhost:1313`](http://localhost:1313/) in the address bar of your browser.
+
+## Production
+
+To run in production (e.g. to have Google Analytics show up), run `HUGO_ENV=production` before your build command. For example:
+
+```
+HUGO_ENV=production hugo
+```
+
+Note: The above command will not work on Windows. If you are running a Windows OS, use the below command:
+
+```
+set HUGO_ENV=production
+hugo
+```
+
+## Contributing
+
+If you find a bug or have an idea for a feature, feel free to use the [issue tracker](https://github.com/theNewDynamic/gohugo-theme-ananke/issues) to let me know.
+
+
+
+
+TODO:
+
+- fix hard-coded link to [section](https://github.com/theNewDynamic/gohugo-theme-ananke/blob/master/layouts/index.html#L32)
