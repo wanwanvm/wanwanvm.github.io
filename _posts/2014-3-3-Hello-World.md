@@ -12,3 +12,11 @@ Ini adalah contoh format menampilkan gambar dalam markdown :
 ![Azunyan](https://3.bp.blogspot.com/-jFUYJlcFR4s/WDZALylcM9I/AAAAAAAAAC4/e-JJokwZzDcVZWDVfIYEdjmAORkZwZZQACLcB/s640/azusa.jpg)
 Ini adalah contoh format tulisan tebal.
 **Makan Bang**
+
+<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+this.page.url = "PAGE_URL"; // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = "PAGE_IDENTIFIER"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+</script>
