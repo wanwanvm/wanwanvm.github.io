@@ -1,2 +1,0 @@
-# wanwanvm.github.io
-yakin
