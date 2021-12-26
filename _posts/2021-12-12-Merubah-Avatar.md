@@ -8,4 +8,4 @@ Carilah file  the _config.yml  yang terdapat di root repository anda (di tunjuka
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
 
-untuk penulisan artikel bisa di lihat  /_posts/ (https://github.com/barryclark/jekyll-now) on GitHub.
+**untuk penulisan artikel bisa di lihat  /_posts/ (https://github.com/barryclark/jekyll-now) on GitHub.**
