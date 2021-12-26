@@ -1,6 +1,8 @@
 #
 # This file contains configuration flags to customize your site
 #
+comments: true
+disqus_shortname: "http://disqus.com/by/disqus_8gCsigUbfD" //replace shortname
 
 # Name of your site (displayed in the header)
 name: Miswan
