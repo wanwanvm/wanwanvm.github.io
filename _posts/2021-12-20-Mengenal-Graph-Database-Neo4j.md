@@ -5,7 +5,7 @@ tags: [basic]
 fullview: false
 category : tutorial
 description : belajar mengenal Graph Database menggunakan Neo4j
-comments: true
+comments: false
 ---
 Benyak pertanyaan yang muncul di benak saya saat Dosen Saya **Dr. Arya Adhyaksa Waskita** menyampaikan tentang Graph Database menggunakan Neo4j
 dan akhirnya saya mencari informasi apa itu Graph Database dan Neo4j itu sendiri
