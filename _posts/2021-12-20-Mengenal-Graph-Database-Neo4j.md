@@ -16,8 +16,8 @@ https://id.wikipedia.org/wiki/Graph_database
 Graph database dalam dunia ilmu komputer adalah database yang menggunakan struktur data graph yg memiliki komponen node, edge dan properties unutk merepresentasikan penyimpanan data. Graph database menyediakan index-free adjacency yang artinya setiap elemen berisi direct pointer ke adjacent element dan tidak membutuhkan lagi suatu index lookups.
 
 Berikut struktur dari graph database: 
+![_config.yml]({{ site.baseurl }}/images/GraphDatabase_PropertyGraph.png)
 
-![_GraphDatabase](https://id.wikipedia.org/wiki/Graph_database#/media/Berkas:GraphDatabase_PropertyGraph.png)
 sumber https://id.wikipedia.org/wiki/Graph_database#/media/Berkas:GraphDatabase_PropertyGraph.png
 di mana Setiap simpul melambangkan suatu entitas seperti orang, bisnis, akun, atau item lain yang hendak dilacak. 
 
