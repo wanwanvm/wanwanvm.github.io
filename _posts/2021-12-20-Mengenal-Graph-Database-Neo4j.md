@@ -47,13 +47,14 @@ Lalu setelah ini kita akan membahas tentang cara install Neo4J tapi dalam versi 
   besar file kisaran 600 Mb dan jangan lupa ikuti petunjuk pengisian informasi dan key penginstalan versi desktop
 2. setelah itu lakukan instalasi aplikasi tersebut
 3. Setelah itu akan muncul tampilan seperti dibawah ini dan jangan lupa pilih only for me (windows)
-<<gambar>>
+![_config.yml]({{ site.baseurl }}/images/1.png)
 4. Lalu akan muncul tampilan seperti dibawah yang menandakan telah berhasil install.
+![_config.yml]({{ site.baseurl }}/images/4.png)
 5. Setelah aplikasi sudah berhasil terinstall, lalu buka link alamat berikut http://localhost:7474/ lalu akan muncul tampilan seperti dibawah.
-  <<gambar>>
+  ![_config.yml]({{ site.baseurl }}/images/6.png)
 6. Dan buka aplikasi hasil installer 
-
+![_config.yml]({{ site.baseurl }}/images/5.png)
 di artikel berikutnya akan kita coba membuat database graph di Neo4J 
-  
+
 
 
