@@ -1,22 +1,29 @@
 ---
 layout: post
-title: Membuat Artikel di Jekyll
+title: Mengenal Graph Database Menggunakan Neo4j
 tags: [basic]
 fullview: false
 category : tutorial
-description : ini adalah demo dari tutorial yang ada di linuxsec.org
+description : belajar mengenal Graph Database menggunakan Neo4j
 comments: true
 ---
-<p style="text-align:justify;">Ini adalah contoh postingan di jekyll dengan align justify atau rata kanan kiri yang dibuat dengan remarkable. Jika ada yang ditanyakan silahkan komentar.</p>
-Ini adalah contoh format menampilkan gambar dalam markdown :
-![Azunyan](https://3.bp.blogspot.com/-jFUYJlcFR4s/WDZALylcM9I/AAAAAAAAAC4/e-JJokwZzDcVZWDVfIYEdjmAORkZwZZQACLcB/s640/azusa.jpg)
-Ini adalah contoh format tulisan tebal.
-**Makan Bang**
+Benyak pertanyaan yang muncul di benak saya saat Dosen Saya **Dr. Arya Adhyaksa Waskita** menyampaikan tentang Graph Database menggunakan Neo4j
+dan akhirnya saya mencari informasi apa itu Graph Database dan Neo4j itu sendiri
 
-<div id="disqus_thread"></div>
-<script>
-    var disqus_config = function () {
-this.page.url = "PAGE_URL"; // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = "PAGE_IDENTIFIER"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-</script>
+** Apa Graph Database ? **
+jika saya sadur dari wikipedia
+https://id.wikipedia.org/wiki/Graph_database
+Graph database dalam dunia ilmu komputer adalah database yang menggunakan struktur data graph yg memiliki komponen node, edge dan properties unutk merepresentasikan penyimpanan data. Graph database menyediakan index-free adjacency yang artinya setiap elemen berisi direct pointer ke adjacent element dan tidak membutuhkan lagi suatu index lookups.
+
+Berikut struktur dari graph database: 
+![Graph Database](https://id.wikipedia.org/wiki/Graph_database#/media/Berkas:GraphDatabase_PropertyGraph.png)
+sumber https://id.wikipedia.org/wiki/Graph_database#/media/Berkas:GraphDatabase_PropertyGraph.png
+di mana Setiap simpul melambangkan suatu entitas seperti orang, bisnis, akun, atau item lain yang hendak dilacak. 
+
+berdasarkan sifat nya 
+
+Dibanding dengan relational database, graph database sering lebih cepat untuk himpunan data asosiatif, dan memetakan lebih langsung ke struktur aplikasi berorientasi objek (object-oriented application). Database ini dapat diskala lebih alamiah ke himpunan data lebih besar karena umumnya tidak membutuhkan operasi "join" yang mahal. Karena kurang tergantung dari skema kaku, mereka lebih cocok untuk dikelola secara ad hoc dan data yang berubah-ubah dengan skema yang terus diperbarui. Sebaliknya, relational database umumnya lebih cepat dalam mengerjakan operasi yang sama dengan jumlah elemen data yang lebih banyak.
+
+
+** Apa Neo4j? **
+
