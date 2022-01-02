@@ -3,10 +3,11 @@ layout: post
 title: CURD (create, retrieve, update dan delete) pada Neo4J
 ---
 
-Dalam suatu menajemen database pasti ada suatu operasi CURD ( Create. Retrive, Update dan Delete ) begitu pula pada database Neo4J juga dapat melakukan operasi CURD layaknya database lainya. Tulisan ini membahas cara-cara tersebut menggunakan cypher query, yang merupakan query khusus untuk graph database pada Neo4j
+<div style="text-align: right"> Dalam suatu menajemen database pasti ada suatu operasi CURD ( Create. Retrive, Update dan Delete ) begitu pula pada database Neo4J juga dapat melakukan operasi CURD layaknya database lainya. Tulisan ini membahas cara-cara tersebut menggunakan cypher query, yang merupakan query khusus untuk graph database pada Neo4j
 Yang diulas pada catatan kali ini hanya bagaimana CRUD pada node, tanpa relationship
 
 Graph database menggunakan node dan relationship untuk memodelkan dan menyimpan data. Node merupakan data itu sendiri, sedangkan relationship menggambarkan keterkaitan data dengan data yang lain. Node dan relationship bisa memiliki berbagai atribut (sifat dari data) yang dapat menggambarkan isi dari data tersebut. dibawah ini adalah contoh sederhana operasi CRUD pada Neo4j.
+  </div>
 
 1. CREATE
 
