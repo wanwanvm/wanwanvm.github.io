@@ -27,7 +27,7 @@ lebih ringkas nya :
 
 klausa WHERE (pada query pertama) digunakan untuk melakukan seleksi dari node yang akan diambil. RETURN digunakan untuk menampilkan objek yang ada.
 
-![_config.yml]({{ site.baseurl }}/images/where.png)
+![_where]({{ site.baseurl }}/images/whare.png)
   
 
  Untuk mengambil semua node yang ada, digunakan query berikut : 
@@ -46,5 +46,6 @@ Klausa DELETE digunakan untuk menghapus node yang ditemukan. Sama seperti ketika
 <script src="https://gist.github.com/wanwanvm/bb8e5e09456a58fc6c5f4ba8dd3e4bfd.js"></script>
   
 "DETACH DELETE" digunakan untuk menghapus node berikut relationship-nya.
+
 
 Artikel berikutnya adalah bagaimana membuat relationship antar node dengan node yang lain. Semoga bermanfaat.
