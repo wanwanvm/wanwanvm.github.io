@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tutorial Membuat Artikel di Blog Jekyll pada Github 
+title: CURD (create, retrieve, update dan delete) pada NEO4J
 ---
 
 cara membuat post artikel secara manual di githup pada blog jekyll.
