@@ -1,9 +1,9 @@
 ---
 layout: post
-title: CURD (create, retrieve, update dan delete) pada NEO4J
+title: CURD (create, retrieve, update dan delete) pada Neo4J
 ---
 
-cara membuat post artikel secara manual di githup pada blog jekyll.
+cara mengelola CURD ( Create. Retrive, Update dan Delete ) pada database Neo4J.
 Secara format : 
 ![_config.yml]({{ site.baseurl }}/images/isi artikel.png
 )
