@@ -27,7 +27,7 @@ lebih ringkas nya :
 
 klausa WHERE (pada query pertama) digunakan untuk melakukan seleksi dari node yang akan diambil. RETURN digunakan untuk menampilkan objek yang ada.
 
-<gambar>
+![_config.yml]({{ site.baseurl }}/images/where.png)
   
 
  Untuk mengambil semua node yang ada, digunakan query berikut : 
