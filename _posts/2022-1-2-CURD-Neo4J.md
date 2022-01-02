@@ -9,6 +9,7 @@ Yang diulas pada catatan kali ini hanya bagaimana CRUD pada node, tanpa relation
 Graph database menggunakan node dan relationship untuk memodelkan dan menyimpan data. Node merupakan data itu sendiri, sedangkan relationship menggambarkan keterkaitan data dengan data yang lain. Node dan relationship bisa memiliki berbagai atribut (sifat dari data) yang dapat menggambarkan isi dari data tersebut. dibawah ini adalah contoh sederhana operasi CRUD pada Neo4j.
 
 1. CREATE
+
 Bagian pertama adalah bagaimana cara membuat node beserta atributnya. Node merupakan inti data dari graph database. Cypher menyimbolkan node menggunakan tanda kurung buka-tutup, dengan data yang berupa string di dalamnya. Contoh berikut berturut-turut adalah node "mahasiswa", node' mahasiswa' dengan label Mahasiswa, dan node 'mahasiswa' dengan atribut nama :
 <script src="https://gist.github.com/wanwanvm/16c3e747f604e6aeb102edaffd6ed697.js"></script>
 
@@ -18,6 +19,7 @@ Untuk membuat node digunakan query "CREATE" sebagai berikut :
 
 
 2. RETRIEVE
+
 Node yang telah dibuat, dapat di-retrieve (diambil kembali) menggunakan query MATCH sebagai berikut :
 
 <script src="https://gist.github.com/wanwanvm/275bbe080d77598962c96473be23e5c1.js"></script>
@@ -36,11 +38,13 @@ klausa WHERE (pada query pertama) digunakan untuk melakukan seleksi dari node ya
  catatan untuk data yang besar harus di berikan LIMIT
   
 3. UPDATE
+
   Cara melakukan update adalah dengan menemukan node yang diinginkan, kemudian menggunakan klausa SET. Misal ingin mengganti nama "Miswan" menjadi "Miswan Mr" dilakukan dengan query berikut :
   
   <script src="https://gist.github.com/wanwanvm/e885e26564f137735b10a4bc7cca6312.js"></script>
 
 4. DELETE
+
 Klausa DELETE digunakan untuk menghapus node yang ditemukan. Sama seperti ketika update, untuk menghapus node dilakukan terhadap pencarian node yang akan dihapus kemudian dihapus node tersebut. Sebagai contoh, node dengan atribut nama "Miswan Mr" akan dihapus, maka query yang digunakan adalah :
   
 <script src="https://gist.github.com/wanwanvm/bb8e5e09456a58fc6c5f4ba8dd3e4bfd.js"></script>
