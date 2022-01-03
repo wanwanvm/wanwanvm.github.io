@@ -18,9 +18,10 @@ sebagai contoh ada 2 node data 'mahasiswa' dengan nama duta dan miswan, yang dib
 <script src="https://gist.github.com/wanwanvm/a8cf63e40a1415d298012445ba995789.js"></script>
 
 Hasil dari query di atas adalah :
+![_hubungan 1]({{ site.baseurl }}/images/hubungan 1.png)
 
-gambar <hubungan 1 >
-gambar <hubungan 2 >
+![_hubungan 2]({{ site.baseurl }}/images/hubungan 2.png)
+
 
 Seperti halnya node, relationship dapat memiliki atribut. Sebagai contoh, pada kasus di atas relationship "TEMAN" memiliki atribut "hubungan" dalam hal ini hubungan antara Duta dengan Miswan adalah Ketua. Maka relationship dapat diupdate dengan cypher query sebagai berikut :
 
@@ -30,7 +31,7 @@ Untuk menguji apakah query tersebut berhasil, lakukan query berikut :
 
 <script src="https://gist.github.com/wanwanvm/803c136b856dfcc8fca80d63f695d63c.js"></script>
 
-gambar <hubungan 3>
+![_hubungan 3]({{ site.baseurl }}/images/hubungan 3.png)
 
 Atribut-atribut lain dapat ditambahkan pada relationship (maupun node) dengan cara yang sama.
 
