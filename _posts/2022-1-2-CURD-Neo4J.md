@@ -10,8 +10,8 @@ Graph database menggunakan node dan relationship untuk memodelkan dan menyimpan 
   </div>
 
 1. CREATE
-
-Bagian pertama adalah bagaimana cara membuat node beserta atributnya. Node merupakan inti data dari graph database. Cypher menyimbolkan node menggunakan tanda kurung buka-tutup, dengan data yang berupa string di dalamnya. Contoh berikut berturut-turut adalah node "mahasiswa", node' mahasiswa' dengan label Mahasiswa, dan node 'mahasiswa' dengan atribut nama :
+<div style="text-align: justify">
+Bagian pertama adalah bagaimana cara membuat node beserta atributnya. Node merupakan inti data dari graph database. Cypher menyimbolkan node menggunakan tanda kurung buka-tutup, dengan data yang berupa string di dalamnya. Contoh berikut berturut-turut adalah node "mahasiswa", node' mahasiswa' dengan label Mahasiswa, dan node 'mahasiswa' dengan atribut nama :  </div>
 <script src="https://gist.github.com/wanwanvm/16c3e747f604e6aeb102edaffd6ed697.js"></script>
 
 Untuk membuat node digunakan query "CREATE" sebagai berikut :
