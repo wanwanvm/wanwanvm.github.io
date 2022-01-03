@@ -10,9 +10,11 @@ layout: default
   </div>
 
   <div class="date">
+    {% include social-media-share.html %}
     Written on {{ page.date | date: "%B %e, %Y" }}
+    
   </div>
- {% include social-media-share.html %}
+ 
   {% include disqus.html %}
   {% include page-navigation.html %}
 </article>
