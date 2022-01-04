@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tugas Kuliah Algoritma Kompleksitas dengan Bahasa C++
-tags: [basic]
+tags: [Kuliah]
 fullview: false
 category : tutorial
 description : Tugas Kuliah Algoritma Kompleksitas dengan Bahasa C++
