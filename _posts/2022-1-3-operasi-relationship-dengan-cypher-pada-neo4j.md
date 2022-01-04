@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Operasi Relationship dengan Cypher pada Neo4j
-tags: [basic]
+tags: [Neo4J]
 fullview: false
 category : tutorial
 description : Operasi Relationship dengan Cypher pada Neo4j
