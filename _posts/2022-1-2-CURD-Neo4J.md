@@ -1,6 +1,7 @@
 ---
 layout: post
 title: CURD (create, retrieve, update dan delete) pada Neo4J
+tags: [Neo4J]
 ---
 
 <div style="text-align: justify"> Dalam suatu menajemen database pasti ada suatu operasi CURD ( Create. Retrive, Update dan Delete ) begitu pula pada database Neo4J juga dapat melakukan operasi CURD layaknya database lainya. Tulisan ini membahas cara-cara tersebut menggunakan cypher query, yang merupakan query khusus untuk graph database pada Neo4j
