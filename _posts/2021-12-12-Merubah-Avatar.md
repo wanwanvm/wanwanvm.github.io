@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Merubah Avatar pada Jekyll !
+tags: [Jekyll]
 ---
 
 Carilah file  the _config.yml  yang terdapat di root repository anda (di tunjukan seperti di bawah ini).
