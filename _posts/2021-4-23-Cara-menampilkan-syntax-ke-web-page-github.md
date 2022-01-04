@@ -1,3 +1,4 @@
+tags: [Jekyll]
 **Cara Menampilkan Syntax program kedalam page di github**
 **biasa kita cari "How to embed code snippets or files from github"**
 
