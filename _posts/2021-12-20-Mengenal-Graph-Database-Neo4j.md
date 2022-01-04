@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mengenal Graph Database Menggunakan Neo4j
-tags: [basic]
+tags: [Neo4J]
 fullview: false
 category : tutorial
 description : belajar mengenal Graph Database menggunakan Neo4j
