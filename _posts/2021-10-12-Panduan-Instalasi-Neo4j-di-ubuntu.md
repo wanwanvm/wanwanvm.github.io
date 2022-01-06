@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Panduan Instalasi Graph Database Dengan Neo4j di Linux Ubuntu
-tags: [Neo4j]
+tags: [Neo4J]
 fullview: false
 category : neo4j
 description : Panduan Instalasi Graph Database Dengan Neo4j di Linux Ubuntu
