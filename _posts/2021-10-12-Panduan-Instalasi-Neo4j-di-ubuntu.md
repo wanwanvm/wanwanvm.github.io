@@ -35,5 +35,6 @@ Untuk menggunakan Neo4J kita harus mengaktifkannya dulu dengan cara lakukan peri
 
 Setelah itu buka browser anda dan arahkan ke http://localhost:7474/ maka seperti inilah tamppilannya :
 
+![_hasil setelah install]({{ site.baseurl }}/images/hasilinstall.png)
 
 
