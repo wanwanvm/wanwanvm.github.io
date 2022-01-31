@@ -7,7 +7,8 @@ category : Jekyll
 description : Cara Membuat Sitemap untuk Blog Jekyll Github Page
 comments: true
 ---
-** Cara Membuat Sitemap untuk Blog Jekyll Github Page*
+Cara Membuat Sitemap untuk Blog Jekyll Github Page
+
 Peta Situs sitemap.xml sangat penting digunakan di blog  Jekyll  gihub pages pada saat mendaftarkan webiste blog jekyll kita ke google webmaster tools,
 serta sitemap.xml juga agar memudahkan google meng index blog github page yang kita buat.
 langkahnya sangat mudah yaitu dengan cara buka _config.yml.
