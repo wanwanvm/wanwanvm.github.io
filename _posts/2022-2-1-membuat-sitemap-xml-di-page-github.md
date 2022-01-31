@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cara Membuat Sitemap untuk Blog Jekyll Github Page
-tags: [Neo4J]
+tags: [Jekyll]
 fullview: false
 category : Jekyll
 description : Cara Membuat Sitemap untuk Blog Jekyll Github Page
