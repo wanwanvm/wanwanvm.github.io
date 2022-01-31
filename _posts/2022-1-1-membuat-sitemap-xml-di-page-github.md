@@ -3,7 +3,7 @@ layout: post
 title: Cara Membuat Sitemap untuk Blog Jekyll Github Page
 tags: [Jekyll]
 fullview: false
-category : Jekyll
+category : Tutorial
 description : Cara Membuat Sitemap untuk Blog Jekyll Github Page
 comments: true
 ---
