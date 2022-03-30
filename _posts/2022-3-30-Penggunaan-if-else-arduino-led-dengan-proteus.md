@@ -30,5 +30,5 @@ Skematik nya tediri dari :
 
 ![_where]({{ site.baseurl }}/images/hasil if.png)
   
-Artikel berikutnya adalah bagaimana membuat relationship antar node dengan node yang lain. Semoga bermanfaat.
+Artikel berikutnya adalah Switch atau silahkan kirim masukan untuk saya ingin membuat apa. Semoga bermanfaat.
 jika kurang jelas bisa komentar atau dm twitter @wanwanvm
