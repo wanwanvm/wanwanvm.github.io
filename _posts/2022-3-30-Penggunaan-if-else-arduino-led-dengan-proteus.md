@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Penggunaan If Else Arduino Led dengan Protus
-tags: [Tugas Kuliah]
+tags: [Kuliah]
 ---
 
 
