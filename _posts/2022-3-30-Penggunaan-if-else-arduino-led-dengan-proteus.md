@@ -34,5 +34,6 @@ Skematik nya tediri dari :
 
 ![_where]({{ site.baseurl }}/images/hasil if.png)
   
+file project dapat di unduh di <a href="https://github.com/wanwanvm/wanwanvm.github.io/tree/main/tugas/rpl">https://github.com/wanwanvm/wanwanvm.github.io/tree/main/tugas/rpl</a>
 Artikel berikutnya adalah Switch atau silahkan kirim masukan untuk saya ingin membuat apa. Semoga bermanfaat.
 jika kurang jelas bisa komentar atau dm twitter @wanwanvm
