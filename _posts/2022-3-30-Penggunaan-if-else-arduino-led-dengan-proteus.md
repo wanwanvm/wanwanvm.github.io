@@ -6,6 +6,7 @@ tags: [Kuliah]
 
  Nama  : Miswan
  NIM   : 211012000035
+ Tugas Matakuliah Rekayasa Perangkat Lunak Pada Pertemuan Ke 5
  
   1. Pada saat Tombol di Pencet 5 Kali maka Pin 3 akan mengirim tegangan menghidupkan LED1 ( pada counter ke 6 Led 1  menyala )
   2. Pada saat Tombol di pencet 6 Kali maka pin 5 akan mengirim tegangan mengidupkan LED 2 ( pada counter ke 7 Led 2  menyala dan Led 1 Mati )
