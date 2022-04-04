@@ -4,11 +4,12 @@ title: Penggunaan If Else Arduino Led dengan Protus
 tags: [Kuliah]
 ---
 
-
- NIM : 211012000035
+ Nama  : Miswan
+ NIM   : 211012000035
+ 
   1. Pada saat Tombol di Pencet 5 Kali maka Pin 3 akan mengirim tegangan menghidupkan LED1 ( pada counter ke 6 Led 1  menyala )
-  2. Pada saat Tombol di pencet 6 Kali maka pin 5 akan mengirim tegangan mengidupkan LED 2 ( paca counter ke 7 Led 2  menyala dan Led 1 Mati )
-  3. Pada saat Tombol di pencet 7 Kali maka pin 5 akan mengirim tegangan mengidupkan LED 3 ( paca counter ke 8 Led 3  menyala dan Led 1, Led 2 Mati )
+  2. Pada saat Tombol di pencet 6 Kali maka pin 5 akan mengirim tegangan mengidupkan LED 2 ( pada counter ke 7 Led 2  menyala dan Led 1 Mati )
+  3. Pada saat Tombol di pencet 7 Kali maka pin 5 akan mengirim tegangan mengidupkan LED 3 ( pada counter ke 8 Led 3  menyala dan Led 1, Led 2 Mati )
   4. pada Saat Tombol di Pencet 8 Kali maka counter akan di isi angka 0 (nol) dan Semua Led di matikan dan akan kembali ke logika awal
 
 
