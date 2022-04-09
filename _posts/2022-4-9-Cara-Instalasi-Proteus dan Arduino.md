@@ -19,3 +19,6 @@ Dan banyak juga software proteus yang sudah di crack tapi tentu saja ada resiko 
 ARDUINO Menurut website resmi Arduino, Arduino merupakan sebuah perangkat elektronik yang bersifat open source dan sering digunakan untuk merancang dan membuat perangkat elektronik serta software yang mudah untuk digunakan. Arduino memiliki komponen seperti Mikrokontroler, Pin, dan konektor yang semuanya dijalan kan dengan arduino language yang bahasa pemrogramannya mirip bahasa C++. untuk software nya bisa di download di <a href="https://www.arduino.cc/">https://www.arduino.cc/</a> di website tersebut sangat jelas di berikan contoh cara kerja sensor sensor dan contoh pemrogramannya.
 
 
+Bagaimana cara menjalankan Arduino di dalam simulasi Proteus maka kita harus menginstall libary arduinonya kedalam proteus serta library sensor sensor yang akan kita gunakan. untuk lebih lengkapnya cara install library ke proteus bisa kunjungi link <a href="https://nyatetaz.blogspot.com/2022/03/program-blink-arduino-menggunakan.html">https://nyatetaz.blogspot.com/2022/03/program-blink-arduino-menggunakan.html</a>
+
+Sekian semoga bermanfaat jika ada pertanyaan bisa dm twitter atau komen di bawah . 
