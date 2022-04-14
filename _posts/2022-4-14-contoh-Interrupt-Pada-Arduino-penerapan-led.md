@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Penggunaan If Else Arduino Led dengan Protus
+title: Contoh Interrupt Pada Arduino Penerapan LED
 tags: [Arduino]
 ---
 INTERRUPT PROGRAM Pada ARDUINO
