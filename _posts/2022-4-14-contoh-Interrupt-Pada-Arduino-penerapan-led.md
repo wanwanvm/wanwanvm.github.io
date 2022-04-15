@@ -23,3 +23,7 @@ contoh penerapan pada program menyalakan LED pada arduino
 file project dapat di unduh di <a href="https://github.com/wanwanvm/wanwanvm.github.io/tree/main/tugas/interrupt">https://github.com/wanwanvm/wanwanvm.github.io/tree/main/tugas/interrupt</a>
 Artikel berikutnya adalah Switch atau silahkan kirim masukan untuk saya ingin membuat apa. Semoga bermanfaat.
 jika kurang jelas bisa komentar atau dm twitter @wanwanvm
+
+contoh artikel lain terkait interrupt
+
+<a href="http://omelektro.blogspot.com/2019/02/fungsi-interrupt-pada-arduino-adalah.html">http://omelektro.blogspot.com/2019/02/fungsi-interrupt-pada-arduino-adalah.html</a>
