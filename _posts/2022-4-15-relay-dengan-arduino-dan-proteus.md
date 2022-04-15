@@ -16,6 +16,6 @@ dengan skematik rangkaian pada proteus sebagai berikut
 
 ![_where]({{ site.baseurl }}/images/relay.png)
   
-file project dapat di unduh di <a href="https://github.com/wanwanvm/wanwanvm.github.io/tree/main/tugas/interrupt">https://github.com/wanwanvm/wanwanvm.github.io/tree/main/tugas/interrupt</a>
+file project dapat di unduh di <a href="https://github.com/wanwanvm/wanwanvm.github.io/tree/main/tugas/relay">https://github.com/wanwanvm/wanwanvm.github.io/tree/main/tugas/relay</a>
 silahkan kirim masukan untuk saya ingin membuat artikel apa. Semoga bermanfaat.
 jika kurang jelas bisa komentar atau dm twitter @wanwanvm
