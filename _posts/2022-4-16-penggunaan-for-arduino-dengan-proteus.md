@@ -12,10 +12,10 @@ Komponen Libary yang di butuhkan di proteus adalah :
 Langkah Program : 
 
 Int i ; ---> Mendefinisikan variable i sebagai integer
-Int LED1 = 9; ---> Mendefinisikan variable LEDku sebagai integer dengan nilai 9
-pinMode (LEDku, OUTPUT); ---> seting pin LEDku (pin No. 9) sebagai output
-digitalWrite (LED1, HIGH); ---> memerintahkan pin LEDku bernilai 1 (tegangan 5 V)
-digitalWrite (LED1, LOW); ---> memerintahkan pin LEDku bernilai 0 (tidak ada tegangan)
+Int LED1 = 9; ---> Mendefinisikan variable LED1 sebagai integer dengan nilai 9
+pinMode (LEDku, OUTPUT); ---> seting pin LED1 (pin No. 9) sebagai output
+digitalWrite (LED1, HIGH); ---> memerintahkan pin LED1 bernilai 1 (tegangan 5 V)
+digitalWrite (LED1, LOW); ---> memerintahkan pin LED1 bernilai 0 (tidak ada tegangan)
 Serial.begin(9600); ---> mengaktifkan port serial (pin 0 dan pin 1) dengan BAUD rate 9.600
 Serial.println(i); ---> mencetak nilai i sekaligus ganti baris
 Serial.println(); ---> tdk ada yg dicetak, hanya ganti baris
