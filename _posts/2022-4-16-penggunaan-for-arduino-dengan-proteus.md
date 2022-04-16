@@ -8,6 +8,7 @@ A. Pengulangan FOR untuk menjalankan led dengan perintah 1 detik ( delay 1000) s
 Komponen Libary yang di butuhkan di proteus adalah :
 1. ARDUINO UNO R3
 2. LED
+3. GROUND
 
 Langkah Program : 
 
