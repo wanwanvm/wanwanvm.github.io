@@ -1,6 +1,6 @@
 ---
 layout: post
-title: penggunaan sub program Arduino dengan Proteus
+title: Contoh sub program Arduino dengan Proteus
 tags: [Arduino]
 ---
 
