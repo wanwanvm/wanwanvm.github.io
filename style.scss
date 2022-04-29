@@ -5,6 +5,8 @@
 // IMPORTS
 //
 //batas atas css tags
+#disqus_thread>iframe[src*="ads-iframe"]{display:none!important}
+
 .tags {
   list-style: none;
   margin: 0;
