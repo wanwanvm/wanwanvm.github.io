@@ -38,7 +38,7 @@ kemudian jalankan maka akan menghasilkan tulisan sesuai dengan keingan kita.
 
 ![_lcdi2c]({{ site.baseurl }}/images/hasil LCD.png)
 
-artikel terkait <a href="https://kelasrobot.com/cara-simple-program-lcd-i2c-16x2-menggunakan-arduino/">https://kelasrobot.com/cara-simple-program-lcd-i2c-16x2-menggunakan-arduino/</a>
+artikel terkait <a href="https://github.com/johnrickman/LiquidCrystal_I2C/blob/master/examples/HelloWorld/HelloWorld.pde">https://github.com/johnrickman/LiquidCrystal_I2C/blob/master/examples/HelloWorld/HelloWorld.pde/</a>
 
 file project dapat di unduh di <a href="https://github.com/wanwanvm/wanwanvm.github.io/tree/main/tugas/LCD-I2C">https://github.com/wanwanvm/wanwanvm.github.io/tree/main/tugas/LCD-I2C</a>
 Artikel berikutnya adalah Switch atau silahkan kirim masukan untuk saya ingin membuat apa. Semoga bermanfaat.
