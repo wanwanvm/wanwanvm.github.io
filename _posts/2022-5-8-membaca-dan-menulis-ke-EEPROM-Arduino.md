@@ -10,5 +10,7 @@ Pogram di Arduino akan berjalan baik jika selalu terhubung ke listrik tapi apa j
 
 artikel terkait membaca dan menulis data ke EEPROM Arduino <a href="http://saptaji.com/2015/02/02/membaca-dan-menulis-data-ke-eeprom-arduino/">http://saptaji.com/2015/02/02/membaca-dan-menulis-data-ke-eeprom-arduino/</a>
 
+<a href="https://www.ardutech.com/aplikasi-arduino-kalender-digital/">https://www.ardutech.com/aplikasi-arduino-kalender-digital/</a>
+
 silahkan kirim masukan untuk saya ingin membuat apa. Semoga bermanfaat.
 jika kurang jelas bisa komentar atau dm twitter @wanwanvm
