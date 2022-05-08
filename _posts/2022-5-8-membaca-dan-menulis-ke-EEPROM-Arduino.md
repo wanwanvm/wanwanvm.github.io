@@ -12,5 +12,6 @@ artikel terkait membaca dan menulis data ke EEPROM Arduino <a href="http://sapta
 
 <a href="https://www.ardutech.com/aplikasi-arduino-kalender-digital/">https://www.ardutech.com/aplikasi-arduino-kalender-digital/</a>
 
+<a href="https://sunupradana.info/tkr/category/embedded-systems/arduino/">https://sunupradana.info/tkr/category/embedded-systems/arduino/</a>
 silahkan kirim masukan untuk saya ingin membuat apa. Semoga bermanfaat.
 jika kurang jelas bisa komentar atau dm twitter @wanwanvm
