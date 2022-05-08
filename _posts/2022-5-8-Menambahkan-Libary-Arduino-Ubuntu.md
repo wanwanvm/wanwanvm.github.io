@@ -5,25 +5,11 @@ tags: [Arduino]
 ---
 
 1. Menambahkan LCD LiquidCrystal_I2C.h
-cd /usr/share/arduino/libraries/
-
-sudo wget https://downloads.arduino.cc/libraries/github.com/marcoschwartz/LiquidCrystal_I2C-1.1.2.zip
-
-unzip LiquidCrystal_I2C-1.1.2.zip 
-
+<script src="https://gist.github.com/wanwanvm/360709c782a92ee965af0bea2e169cc9.js"></script>
 lakukan rename nama foldernya ternyata tidak bolah ada Numerik
 
-mv LiquidCrystal_I2C-1.1.2 LiquidCrystalI2C
-
 2. Menambahkan virtuabotixRTC.h 
-
-cd /usr/share/arduino/libraries/
-
-sudo wget https://github.com/wanwanvm/wanwanvm.github.io/raw/main/tugas/libary-arduino/virtuabotixRTCx.zip
-
-unzip virtuabotixRTCx.zip
-
-
+<script src="https://gist.github.com/wanwanvm/dc23d0cf2ee5f44e60d2c36a4ce2ec21.js"></script>
 
 silahkan kirim masukan untuk saya ingin membuat apa. Semoga bermanfaat.
 jika kurang jelas bisa komentar atau dm twitter @wanwanvm
