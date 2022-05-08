@@ -38,6 +38,8 @@ kemudian jalankan maka akan menghasilkan tulisan sesuai dengan keingan kita.
 
 ![_lcdi2c]({{ site.baseurl }}/images/hasil LCD.png)
 
+artikel terkait <a href="https://kelasrobot.com/cara-simple-program-lcd-i2c-16x2-menggunakan-arduino/">https://kelasrobot.com/cara-simple-program-lcd-i2c-16x2-menggunakan-arduino/</a>
+
 file project dapat di unduh di <a href="https://github.com/wanwanvm/wanwanvm.github.io/tree/main/tugas/LCD-I2C">https://github.com/wanwanvm/wanwanvm.github.io/tree/main/tugas/LCD-I2C</a>
 Artikel berikutnya adalah Switch atau silahkan kirim masukan untuk saya ingin membuat apa. Semoga bermanfaat.
 jika kurang jelas bisa komentar atau dm twitter @wanwanvm
