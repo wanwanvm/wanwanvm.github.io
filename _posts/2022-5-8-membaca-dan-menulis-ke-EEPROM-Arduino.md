@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Membaca dan menulis ke EEPROM Arduino
+title: Membaca dan menulis data ke EEPROM Arduino
 tags: [Arduino]
 ---
 
