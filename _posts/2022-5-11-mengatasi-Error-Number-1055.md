@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mengatasi Error A Database Error Occurred Error Number: 1055
+title: Mengatasi Error A Database Error Occurred Error Number 1055
 tags: [MYSQL]
 ---
 
