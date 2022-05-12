@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mengatasi virtual terminal proteus tidak muncul atau error
-tags: [MYSQL]
+tags: [Proteus]
 ---
 
 Sangat Mengesalkan Bahkan membinungkan pada saat membuat project arduino di proteus, saat virtual terminal tidak mau muncul padahal sebelumnya muncul normal, karena tanpa kita sadari kita menutup exit hanya di komponen virtual terminalnya sehingga walaupun proteus kita close dan di hidupkan lagi tetap virtual terminal tidak muncul.
