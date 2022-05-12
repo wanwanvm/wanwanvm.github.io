@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cara Enable index.php mode rewrite di apache server ubuntu
-tags: [ubuntu]
+tags: [Ubuntu]
 ---
 
 1. Langkah pertama pastikan apache sudah terinstall 
