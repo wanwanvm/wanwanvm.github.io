@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Perintah Sederhana di Terminal Server Ubuntu
-tags: [Arduino]
+tags: [Ubuntu]
 ---
 
 1. Upload file kedalam serser dengan Protokol SSH 
