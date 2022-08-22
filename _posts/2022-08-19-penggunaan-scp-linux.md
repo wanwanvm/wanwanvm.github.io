@@ -8,7 +8,7 @@ Kita bisa melakukan proses copy paste dengan mudah di konsol melalui perintah cp
 1. masuk ke komputer lokal dimana file yang akan di upload ke server
 <script src="https://gist.github.com/wanwanvm/12bf2c875f6f2e1904946a4a8218c206.js"></script>
 
-
+2. https://www.hostinger.co.id/tutorial/unzip-linux
 
 Artikel Terkait :
 <a href="https://www.domainesia.com/panduan/cara-menggunakan-scp/">https://www.domainesia.com/panduan/cara-menggunakan-scp/</a>
