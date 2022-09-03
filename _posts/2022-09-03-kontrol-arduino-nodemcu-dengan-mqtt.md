@@ -24,7 +24,8 @@ dan akan menerima topik di miswan1
 jika topik miswan1 diberi string 0 maka led nodemcu akan mati dan jika diberi nilai 1 maka led akan hidup
 
 
-artikel yang terkait di <a href="https://www.youtube.com/watch?v=A14KWOrbwt8&t=261s">https://www.youtube.com/watch?v=A14KWOrbwt8&t=261s</a>
+artikel yang terkait di <a href="https://www.youtube.com/watch?v=A14KWOrbwt8&t=261s">https://www.youtube.com/watch?v=A14KWOrbwt8&t=261s</a> <br>
+<a href="https://www.youtube.com/watch?v=hNufK2dDCIM">https://www.youtube.com/watch?v=hNufK2dDCIM</a>
 
 silahkan kirim masukan untuk saya ingin membuat artikel apa. Semoga bermanfaat.
 jika kurang jelas bisa komentar atau dm twitter @wanwanvm
