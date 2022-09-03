@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cara Mudah Kontrol arduini nodemcu dengan MQTT
+title: Cara Mudah Kontrol arduino nodemcu dengan MQTT
 tags: [Arduino]
 ---
 
