@@ -24,7 +24,7 @@ ARDUINO, Raspberry, ESP32, dan beberapa Board IOT Lainnya
 * Download Project ZIP : kita dapat menyimpan dan mengambil file dan direktori dari kode yang telah dibuat. Dapat sharing ke anggota yang lain
 
 
-** Keuntungan Menggunakanan WOKWI Simulator **
+**Keuntungan Menggunakanan WOKWI Simulator**
 * Banyak Tutorial yang membahas wokwi
 * Tidak takut rangkaian elektronik konsleting dan rusak
 * Pilihan Hardware banyak untuk ujicoba secara online, jadi kita bisa mencoba dahulu sebelum membeli hardwarenya
