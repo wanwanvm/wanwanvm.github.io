@@ -7,13 +7,12 @@ category : Wokwi
 description : Simulator Online untuk IOT yang Gratis dan Lengkap
 comments: true
 ---
-
-![_wokwi]({{ site.baseurl }}/images/wokwi.png)
-
 **Apa Itu Wokwi**
 
 Wokwi Merupakan Simulator untuk IOT yang dapat di gunakan secara online dan gratis, kita dapat menggunakan untuk membantu mensimulasikan seperti
 ARDUINO, Raspberry, ESP32, dan beberapa Board IOT Lainnya
+
+![_wokwi]({{ site.baseurl }}/images/wokwi.png)
 
 **Fitur Apasaja yang ada di WOKWI**
 
