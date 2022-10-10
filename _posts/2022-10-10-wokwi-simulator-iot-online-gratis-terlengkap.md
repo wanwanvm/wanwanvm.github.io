@@ -33,7 +33,15 @@ ARDUINO, Raspberry, ESP32, dan beberapa Board IOT Lainnya
 
 https://wokwi.com/
 
+**CONTOH CONTROL SUHU DENGAN DHT DAN ARDUINO UNO**
 
+<script src="https://gist.github.com/wanwanvm/91376d02650e6ab3efa0661b355986ec.js"></script>
+
+![_wokwi]({{ site.baseurl }}/images/dht contoh.png)
+
+
+**link project contoh DHT 22**
+https://wokwi.com/projects/345151340890030675
 
 
 
