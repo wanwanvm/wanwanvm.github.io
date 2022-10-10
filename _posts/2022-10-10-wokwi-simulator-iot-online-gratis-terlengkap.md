@@ -10,6 +10,7 @@ comments: true
 
 
 ![_hasil setelah install]({{ site.baseurl }}/images/wokwi.png)
+
 **Apa Itu Wokwi**
 
 Wokwi Merupakan Simulator untuk IOT yang dapat di gunakan secara online dan gratis, kita dapat menggunakan untuk membantu mensimulasikan seperti
