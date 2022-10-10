@@ -30,7 +30,7 @@ ARDUINO, Raspberry, ESP32, dan beberapa Board IOT Lainnya
 
 **Alamat URL WOKWI**
 
-https://wokwi.com/
+<a href="https://wokwi.com/">https://wokwi.com/</a>
 
 **CONTOH CONTROL SUHU DENGAN DHT DAN ARDUINO UNO**
 
@@ -40,7 +40,7 @@ https://wokwi.com/
 
 
 **link project contoh DHT 22**
-https://wokwi.com/projects/345151340890030675
+<a href="https://wokwi.com/projects/345151340890030675">https://wokwi.com/projects/345151340890030675</a>
 
 
 
