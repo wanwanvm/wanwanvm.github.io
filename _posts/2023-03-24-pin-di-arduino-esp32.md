@@ -29,7 +29,7 @@ Fitur ADC (analog to digital Converter) dan DAC (Digital To Analog Converter) sp
 ![_esp32]({{ site.baseurl }}/images/pinout.png)
 
 
-**link project contoh DHT 22**
+**Informasi Lainnya yang terkait**
 <a href="https://embeddednesia.com/v1/menggunakan-pin-gpio-pada-esp32/">https://embeddednesia.com/v1/menggunakan-pin-gpio-pada-esp32/</a>
 
 
