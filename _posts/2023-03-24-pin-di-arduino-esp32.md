@@ -26,7 +26,7 @@ Sebagaimana pernah dibahas pada  tulisan yang lalu, ESP32 memiliki periferal seb
 
 Fitur ADC (analog to digital Converter) dan DAC (Digital To Analog Converter) spesifik dapat digunakan hanya pada pin -pin tertentu saja. Sedangkan fitur  UART, I2C, SPI, PWM dapat diaktifkan secara programmatically. Berikut adalah diagram pin – pin pada development Board ESP32
 
-![_wokwi]({{ site.baseurl }}/images/pinoutput.png)
+![_esp32]({{ site.baseurl }}/images/pinout.png)
 
 
 **link project contoh DHT 22**
