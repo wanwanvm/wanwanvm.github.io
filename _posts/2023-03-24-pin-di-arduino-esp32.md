@@ -1,46 +1,36 @@
 ---
 layout: post
-title: Wokwi Simulator IOT Online Gratis dan Lengkap
-tags: [Wokwi]
+title: Penggunaan PIN di Board Arduino ESP32
+tags: [Arduino]
 fullview: false
-category : Wokwi
-description : Simulator Online untuk IOT yang Gratis dan Lengkap
+category : Arduino
+description : Penggunaan PIN di Board Arduino ESP32
 comments: true
 ---
-**Apa Itu Wokwi**
+**ESP32**
 
-Wokwi Merupakan Simulator untuk IOT yang dapat di gunakan secara online dan gratis, kita dapat menggunakan untuk membantu mensimulasikan seperti
-ARDUINO, Raspberry, ESP32, dan beberapa Board IOT Lainnya
-
-![_wokwi]({{ site.baseurl }}/images/wokwi.png)
-
-**Fitur Apasaja yang ada di WOKWI**
-
-* GDB Debugging : Wokwi Support Debugger untuk Arduino dan Raspberry Pi
-* Wifi Simulation : Wokwi Sudah support untuk simulasi, dapat juga menggunakan protokol IoT seperti MQTT, HTTP, NTP dan masih banyak protokol lainnya
-* Virtual Logic Analyzer : Dapat menggunakan tampilan layar seperti UART, I2C, SPI dan mampu menganalisa data yang telah diperoleh
-* Download Project ZIP : kita dapat menyimpan dan mengambil file dan direktori dari kode yang telah dibuat. Dapat sharing ke anggota yang lain
+perancang akan memilih menggunakan development board ESP32 untuk keperluan tertentu. Contohnya, dalam artikel ini, disebutkan bahwa ada beberapa jenis development board yang kompatibel dan tersedia di warungrobot.com. Salah satunya adalah ESP32S DevKit DOIT yang memiliki 38 kaki pin.
 
 
-**Keuntungan Menggunakanan WOKWI Simulator**
-* Banyak Tutorial yang membahas wokwi
-* Tidak takut rangkaian elektronik konsleting dan rusak
-* Pilihan Hardware banyak untuk ujicoba secara online, jadi kita bisa mencoba dahulu sebelum membeli hardwarenya
-* Dukungan komunitas discord yang interaktif : https://wokwi.com/discord
+**Periferal pada ESP32**
+Sebagaimana pernah dibahas pada  tulisan yang lalu, ESP32 memiliki periferal sebagai berikut
 
-**Alamat URL WOKWI**
+    - 18 kanal ADC (Analog-to- Digital Converter)
+    - 3 antarmuka SPI
+    - 3 antarmuka UART
+    - 2 antarmuka I2C
+    - 16 kanal output PWM
+    - 2 kanal DAC (Digital to Analog Converter)
+    - 2 antarmuka I2S
+    - 10 GPIO sensor kapasitif
 
-<a href="https://wokwi.com/">https://wokwi.com/</a>
+Fitur ADC (analog to digital Converter) dan DAC (Digital To Analog Converter) spesifik dapat digunakan hanya pada pin -pin tertentu saja. Sedangkan fitur  UART, I2C, SPI, PWM dapat diaktifkan secara programmatically. Berikut adalah diagram pin – pin pada development Board ESP32
 
-**CONTOH CONTROL SUHU DENGAN DHT DAN ARDUINO UNO**
-
-<script src="https://gist.github.com/wanwanvm/91376d02650e6ab3efa0661b355986ec.js"></script>
-
-![_wokwi]({{ site.baseurl }}/images/dht contoh.png)
+![_wokwi]({{ site.baseurl }}/images/pinoutput.png)
 
 
 **link project contoh DHT 22**
-<a href="https://wokwi.com/projects/345151340890030675">https://wokwi.com/projects/345151340890030675</a>
+<a href="https://embeddednesia.com/v1/menggunakan-pin-gpio-pada-esp32/">https://embeddednesia.com/v1/menggunakan-pin-gpio-pada-esp32/</a>
 
 
 
