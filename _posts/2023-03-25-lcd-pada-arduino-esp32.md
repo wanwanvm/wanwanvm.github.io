@@ -1,7 +1,7 @@
 ---
 layout: post
 title: LCD 16 x 2 I2C dengan Arduino ESP32 
-tags: [arduino]
+tags: [Arduino]
 fullview: false
 category : Arduino
 description : LCD 16 x 2 I2C dengan Arduino ESP32
