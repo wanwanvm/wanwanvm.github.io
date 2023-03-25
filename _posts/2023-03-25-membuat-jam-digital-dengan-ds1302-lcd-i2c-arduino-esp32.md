@@ -22,12 +22,12 @@ Apa yang harus disiapkan sebelum membuat jam digital
 
 **Rangkailah pengkabelan sesuai wiring dibawah ini**
 
-Modul RTC DS1302      Arduino ESP32
-VCC ------------------> 3v3
-GND ------------------> GND
-CLK ------------------> D5
-DATA -----------------> D4
-RST ------------------> D2
+Modul RTC DS1302          Arduino ESP32
+1. VCC ------------------> 3v3
+2. GND ------------------> GND
+3. CLK ------------------> D5
+4. DATA -----------------> D4
+5. RST ------------------> D2
 
 lebih lengkapnya bisa di lihat di gambar wiring di bawah ini :
 ![_wiring]({{ site.baseurl }}/images/JAM dengan LCD_bb.png)
