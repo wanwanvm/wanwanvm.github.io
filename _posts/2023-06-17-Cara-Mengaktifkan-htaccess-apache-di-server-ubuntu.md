@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cara Mengaktifkan .htaccess apache di server ubuntu
-tags: [Arduino]
+tags: [ubuntu]
 fullview: false
 category : ubuntu
 description : Cara Mengaktifkan .htaccess apache di server ubuntu
