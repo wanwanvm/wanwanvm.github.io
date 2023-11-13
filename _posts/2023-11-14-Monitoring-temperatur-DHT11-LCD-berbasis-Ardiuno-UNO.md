@@ -2,6 +2,10 @@
 layout: post
 title: Monitoring Temperatur menggunakan DHT 11 dan LCD bebasis Arduino UNO
 tags: [Arduino]
+fullview: false
+category : Arduino
+description : Monitoring Temperatur menggunakan DHT 11 dan LCD bebasis Arduino UNO
+comments: true
 ---
 
  
