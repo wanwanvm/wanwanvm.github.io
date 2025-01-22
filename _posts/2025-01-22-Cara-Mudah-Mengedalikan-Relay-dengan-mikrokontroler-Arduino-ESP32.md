@@ -10,9 +10,6 @@ comments: true
 **Cara Mudah Mengedalikan Relay dengan mikrokontroler Arduino ESP32**
 Kita akan dengan Mudah Mengendalikan Relay dengan mikrokontroler Arduino ESP32, dalam kasus ini kita menggunakan Simulator Arduino secara online WOKWI  yang dapat di akses secara gratis pada laman site https://wokwi.com/ :
 
-**Rangkailah pengkabelan sesuai wiring dibawah ini**
-
-![_Gambar]({{ site.baseurl }}/images/Wokwi ESP32 Relay.png)
 Rangkaian ESP32 dan Relay
 
 Apa yang harus disiapkan Mengedalikan Relay dengan mikrokontroler Arduino ESP32
@@ -20,7 +17,8 @@ Apa yang harus disiapkan Mengedalikan Relay dengan mikrokontroler Arduino ESP32
 2. Modul Relay
 3. LED
 
-lebih lengkapnya bisa di lihat di gambar wiring di bawah ini :
+**Rangkailah pengkabelan sesuai wiring dibawah ini**
+
 ![_wiring]({{ site.baseurl }}/images/Wokwi ESP32 Relay.png)
 
 
