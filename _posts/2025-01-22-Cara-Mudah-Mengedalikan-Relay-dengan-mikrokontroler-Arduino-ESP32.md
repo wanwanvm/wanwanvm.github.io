@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cara Mudah Mengedalikan Relay dengan mikrokontroler Arduino ESP32  
-tags: [Arduino]
+tags: [Kelas Arduino]
 fullview: false
 category : Kelas Arduino
 description : Cara Mudah Mengedalikan Relay dengan mikrokontroler Arduino ESP32 
