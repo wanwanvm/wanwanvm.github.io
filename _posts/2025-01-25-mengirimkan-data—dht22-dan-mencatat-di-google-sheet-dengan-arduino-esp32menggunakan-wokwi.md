@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mengirimkan Data DHT22 dan Mencatat di Google Sheet dengan Arduino ESP32 Menggunakan Wokwi
-tags: [Arduino]
+tags: [Kelas Arduino]
 fullview: false
 category : Kelas Arduino
 description : Mengirimkan Data DHT22 dan Mencatat di Google Sheet dengan Arduino ESP32 Menggunakan Wokwi 
