@@ -50,10 +50,11 @@ Berikut adalah kode untuk ESP32 yang mengontrol relay berdasarkan pesan MQTT.
 
 **Rangkuman Struktur Program:**
 Pengimporan Library: Untuk WiFi dan MQTT.
-Deklarasi Konfigurasi: WiFi SSID, password, dan konfigurasi MQTT (server, topik).
-Pengaturan Pin Relay: Menentukan pin yang digunakan untuk relay.
-Fungsi setup_wifi(): Untuk menghubungkan ESP32 ke WiFi.
-Fungsi callback(): Untuk menangani pesan MQTT yang diterima dan mengendalikan relay.
-Fungsi reconnectMQTT(): Untuk mencoba menyambungkan ESP32 ke broker MQTT.
-Fungsi setup(): Inisialisasi pin, WiFi, dan MQTT.
-Fungsi loop(): Mengecek koneksi dan memproses pesan MQTT.
+
+- Deklarasi Konfigurasi: WiFi SSID, password, dan konfigurasi MQTT (server, topik).
+- Pengaturan Pin Relay: Menentukan pin yang digunakan untuk relay.
+- Fungsi setup_wifi(): Untuk menghubungkan ESP32 ke WiFi.
+- Fungsi callback(): Untuk menangani pesan MQTT yang diterima dan mengendalikan relay.
+- Fungsi reconnectMQTT(): Untuk mencoba menyambungkan ESP32 ke broker MQTT.
+- Fungsi setup(): Inisialisasi pin, WiFi, dan MQTT.
+- Fungsi loop(): Mengecek koneksi dan memproses pesan MQTT.
