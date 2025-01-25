@@ -49,8 +49,8 @@ Berikut adalah kode untuk ESP32 yang mengontrol relay berdasarkan pesan MQTT.
 <script src="https://gist.github.com/wanwanvm/87208711cfb84fd27f7bc42e82a45ab7.js"></script>
 
 **Rangkuman Struktur Program:**
-Pengimporan Library: Untuk WiFi dan MQTT.
 
+- Pengimporan Library: Untuk WiFi dan MQTT.
 - Deklarasi Konfigurasi: WiFi SSID, password, dan konfigurasi MQTT (server, topik).
 - Pengaturan Pin Relay: Menentukan pin yang digunakan untuk relay.
 - Fungsi setup_wifi(): Untuk menghubungkan ESP32 ke WiFi.
