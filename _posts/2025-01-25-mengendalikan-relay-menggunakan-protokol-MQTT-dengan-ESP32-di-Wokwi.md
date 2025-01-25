@@ -1,7 +1,7 @@
 ---
 layout: post
 title: mengendalikan relay menggunakan protokol MQTT dengan ESP32 di Wokwi dengan MQTT Panel
-tags: [Arduino]
+tags: [Kelas Arduino]
 fullview: false
 category : Kelas Arduino
 description : mengendalikan relay menggunakan protokol MQTT dengan ESP32 di Wokwi
