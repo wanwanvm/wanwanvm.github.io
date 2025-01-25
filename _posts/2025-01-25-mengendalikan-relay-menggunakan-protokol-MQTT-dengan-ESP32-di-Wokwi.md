@@ -17,6 +17,7 @@ Unduh dan instal aplikasi IoT MQTT Panel dari App Store di perangkat iOS Anda. a
 Unduh dan instal aplikasi IoT MQTT Dashboard dari Store di perangkat Android Anda.
 
 Aplikasi ini akan digunakan untuk mengirim dan menerima pesan MQTT untuk mengontrol relay.
+
 **Langkah 2: Konfigurasi Wokwi**
 1. Buat proyek baru di Wokwi.
 2. Tambahkan komponen berikut:
