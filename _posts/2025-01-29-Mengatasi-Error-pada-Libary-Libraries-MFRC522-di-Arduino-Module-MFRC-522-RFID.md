@@ -11,8 +11,7 @@ comments: true
 
 **Librari MRFC522 kadang tidak terbaca dan mengalami error pada IDE Arduino versi 2.1 keatas. Seperti error di bawah ini**
 
-
-**/Users/macbook/Documents/Arduino/libraries/MFRC522/src/MFRC522Extended.cpp: In member function 'MFRC522::StatusCode MFRC522Extended::TCL_Transceive(TagInfo*, byte*, byte, byte*, byte*)': /Users/macbook/Documents/Arduino/libraries/MFRC522/src/MFRC522Extended.cpp:824:34: error: ordered comparison of pointer with integer zero ('byte*' {aka 'unsigned char*'} and 'int') 824 | if (backData && (backLen > 0)) { | ~~~~~~~~^~~ /Users/macbook/Documents/Arduino/libraries/MFRC522/src/MFRC522Extended.cpp:847:42: error: ordered comparison of pointer with integer zero ('byte*' {aka 'unsigned char*'} and 'int') 847 | if (backData && (backLen > 0)) { | ~~~~~~~~^~~ exit status 1 Compilation error: exit status 1
+<script src="https://gist.github.com/wanwanvm/48345d98a4c78f4184586fa781907cd0.js"></script>
 
 **Kesalahan ini muncul karena Anda membandingkan pointer (backLen) dengan nilai integer, yang merupakan operasi tidak valid dalam C++. Berikut adalah langkah-langkah untuk memperbaiki masalah ini: **
 
