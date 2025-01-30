@@ -24,11 +24,17 @@ Hubungkan modul RFID-RC522 ke ESP32 sebagai berikut:
 RFID-RC522 |	ESP32
 -----------------
 SDA (SS)---->GPIO 5
+
 SCK	----> GPIO 18
+
 MOSI---->GPIO 23
+
 MISO---->GPIO 19
+
 GND---->GND
+
 RST---->GPIO 22
+
 3.3V---->3.3V
 
 lebih lengkapnya bisa di lihat di gambar wiring di bawah ini :
@@ -46,6 +52,7 @@ Pastikan Anda telah menginstal library berikut melalui Library Manager:
 1. Buka Google Sheets dan buat dokumen baru dengan dua kolom
 
 Contoh berisi data 
+
 timestamp	          |uid
 --------------------------------
 27/01/2025 17:40:50	|24 30 28 2B
