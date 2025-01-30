@@ -62,6 +62,7 @@ timestamp	          |uid
 27/01/2025 17:40:55	|24 30 28 2B
 --------------------------------
 27/01/2025 17:40:58	|24 30 28 2B
+---------------------------------
 
 2. Klik Extensions > Apps Script.
 3. Hapus kode default dan masukkan kode berikut:
