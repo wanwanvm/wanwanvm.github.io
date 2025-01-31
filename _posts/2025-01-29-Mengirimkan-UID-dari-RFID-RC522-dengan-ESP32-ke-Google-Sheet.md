@@ -46,7 +46,7 @@ Pastikan Anda telah menginstal library berikut melalui Library Manager:
 * WiFiClientSecure untuk koneksi HTTPS
 * HTTPClient untuk mengirim data ke Google Sheets
 
-**jika terdapat kegagalan pada saat proses kompilasi pada libraries MFRC522 bisa di lihat cara mengatasinya di https://wanwanvm.github.io/Mengatasi-Error-pada-Libary-Libraries-MFRC522-di-Arduino-Module-MFRC-522-RFID/
+**jika terdapat kegagalan pada saat proses kompilasi pada libraries MFRC522 bisa di lihat cara mengatasinya di <a href="https://wanwanvm.github.io/Mengatasi-Error-pada-Libary-Libraries-MFRC522-di-Arduino-Module-MFRC-522-RFID/">https://wanwanvm.github.io/Mengatasi-Error-pada-Libary-Libraries-MFRC522-di-Arduino-Module-MFRC-522-RFID/</a>
 
 **4. Buat Google Apps Script untuk menerima data**
 1. Buka Google Sheets dan buat dokumen baru dengan dua kolom
