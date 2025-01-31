@@ -52,17 +52,7 @@ Pastikan Anda telah menginstal library berikut melalui Library Manager:
 1. Buka Google Sheets dan buat dokumen baru dengan dua kolom
 
 Contoh berisi data 
-
-timestamp	          |uid
---------------------------------
-27/01/2025 17:40:50	|24 30 28 2B
---------------------------------
-27/01/2025 17:40:53	|24 30 28 2B
---------------------------------
-27/01/2025 17:40:55	|24 30 28 2B
---------------------------------
-27/01/2025 17:40:58	|24 30 28 2B
----------------------------------
+![_sheet]({{ site.baseurl }}/images/Contoh Sheet RFID.png)
 
 2. Klik Extensions > Apps Script.
 3. Hapus kode default dan masukkan kode berikut:
