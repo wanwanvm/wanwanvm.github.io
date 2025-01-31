@@ -52,12 +52,10 @@ Pastikan Anda telah menginstal library berikut melalui Library Manager:
 1. Buka Google Sheets dan buat dokumen baru dengan dua kolom
 
 Contoh berisi data 
-![_appscript]({{ site.baseurl }}/images/Appscript rfid.png)
-
+![_sheet]({{ site.baseurl }}/images/Contoh Sheet RFID.png)
 2. Klik Extensions > Apps Script.
 3. Hapus kode default dan masukkan kode berikut:
-![_sheet]({{ site.baseurl }}/images/Contoh Sheet RFID.png)
-
+![_appscript]({{ site.baseurl }}/images/Appscript rfid.png)
 copykan script dibawah ini
 <script src="https://gist.github.com/wanwanvm/8441d08b73624f289e28df39c7c6b6fc.js"></script>
 
