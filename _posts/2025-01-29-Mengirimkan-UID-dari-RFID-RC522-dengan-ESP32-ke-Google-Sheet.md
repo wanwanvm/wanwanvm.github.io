@@ -60,10 +60,10 @@ copykan script dibawah ini
 <script src="https://gist.github.com/wanwanvm/8441d08b73624f289e28df39c7c6b6fc.js"></script>
 
 **5. Jalankan dan Deploy:**
-    * Klik Deploy > New Deployment.
-    * Pilih Web App.
-    * Set Anyone dapat mengakses.
-    * Salin URL Web App.
+    - Klik Deploy > New Deployment.
+    - Pilih Web App.
+    - Set Anyone dapat mengakses.
+    - Salin URL Web App.
 
 **6. Kode Program ESP32 di Arduino IDE**
 Setelah mendapatkan URL Google Apps Script, gunakan kode berikut di ESP32:
