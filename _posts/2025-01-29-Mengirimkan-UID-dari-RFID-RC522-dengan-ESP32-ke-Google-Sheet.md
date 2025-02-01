@@ -23,7 +23,7 @@ Hubungkan modul RFID-RC522 ke ESP32 sebagai berikut:
 
 RFID-RC522 |	ESP32
 -----------------
-SDA (SS)---->GPIO 5
+SDA (SS)---->GPIO 21
 
 SCK	----> GPIO 18
 
