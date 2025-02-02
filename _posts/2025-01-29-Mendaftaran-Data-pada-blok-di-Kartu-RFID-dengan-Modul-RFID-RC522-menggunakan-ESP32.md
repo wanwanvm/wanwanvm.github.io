@@ -29,7 +29,7 @@ lebih lengkapnya bisa di lihat di gambar wiring di bawah ini :
 Pastikan Anda telah menginstal library berikut melalui Library Manager:
 * MFRC522 untuk membaca UID RFID
 
-**jika terdapat kegagalan pada saat proses kompilasi pada libraries MFRC522 bisa di lihat cara mengatasinya di <a href="https://wanwanvm.github.io/Mengatasi-Error-pada-Libary-Libraries-MFRC522-di-Arduino-Module-MFRC-522-RFID/“>https://wanwanvm.github.io/Mengatasi-Error-pada-Libary-Libraries-MFRC522-di-Arduino-Module-MFRC-522-RFID/</a>
+**jika terdapat kegagalan pada saat proses kompilasi pada libraries MFRC522 bisa di lihat cara mengatasinya di <a href="https://wanwanvm.github.io/Mengatasi-Error-pada-Libary-Libraries-MFRC522-di-Arduino-Module-MFRC-522-RFID/">https://wanwanvm.github.io/Mengatasi-Error-pada-Libary-Libraries-MFRC522-di-Arduino-Module-MFRC-522-RFID/</a>
 
 **4. Kode Program ESP32 di Arduino IDE**
 Silahkan copy code di Arduino IDE and a
