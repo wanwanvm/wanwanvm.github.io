@@ -36,20 +36,10 @@ Silahkan copy code di Arduino IDE and a
 
 <script src="https://gist.github.com/wanwanvm/c02f1ee104d4cb72730fff7e0c89b711.js"></script>
 
-**Penjelasan Kode**
-1. Input Data:
-    * Menggunakan Serial.readStringUntil('\n') untuk membaca input NISN, Nama, dan Kelas dari serial monitor.
-    * Data diatur menjadi panjang 16 byte sebelum ditulis ke blok.
-2. Blok RFID:
-    * Blok 4: Menyimpan NISN.
-    * Blok 5: Menyimpan Nama.
-    * Blok 6: Menyimpan Kelas.
-3. Fungsi Utama:
-    * readUserInput(): Membaca input dari pengguna.
-    * formatData(): Menyiapkan data agar sesuai dengan panjang blok RFID (16 byte).
-    * writeDataToBlock(): Menulis data ke blok yang ditentukan.
-4. Proses Autentikasi:
-    * Menggunakan kunci default (0xFF) untuk mengakses blok pada kartu RFID.
+penjelasan 
+- Blok 4, 5, dan 6 digunakan untuk menyimpan NISN, Nama, dan Kelas.
+- Kunci autentikasi default (0xFF) digunakan untuk mengakses blok kartu RFID.
+- Program meminta input dari serial monitor dan menuliskan data tersebut ke kartu RFID.
 
 **5. Langkah Uji Coba**
 1. Hubungkan ESP32 ke komputer dan upload kode di atas.
