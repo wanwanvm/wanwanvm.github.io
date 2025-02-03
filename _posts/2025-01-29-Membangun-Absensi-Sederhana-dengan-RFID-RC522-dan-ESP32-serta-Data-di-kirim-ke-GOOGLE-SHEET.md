@@ -9,7 +9,7 @@ comments: true
 ---
 **Membangun Absensi Sederhana dengan RFID-RC522 dan ESP32 serta Data di kirim ke GOOGLE SHEET**
 
-Cara Membangun Absensi Sederhana dengan RFID-RC522 dan ESP32 serta Data di kirim ke GOOGLE SHEET contoh data tanggal, waktu, NISN, NAMA, dan KELAS dari data yang sudah di rekam ke KARTU RFID pada pembahasan sezelumnnya yang dapat di lihat di link ini <a href="https://wanwanvm.github.io/Mendaftaran-Data-pada-blok-di-Kartu-RFID-dengan-Modul-RFID-RC522-menggunakan-ESP32/“>https://wanwanvm.github.io/Mendaftaran-Data-pada-blok-di-Kartu-RFID-dengan-Modul-RFID-RC522-menggunakan-ESP32/</a>
+Cara Membangun Absensi Sederhana dengan RFID-RC522 dan ESP32 serta Data di kirim ke GOOGLE SHEET contoh data tanggal, waktu, NISN, NAMA, dan KELAS dari data yang sudah di rekam ke KARTU RFID pada pembahasan sezelumnnya yang dapat di lihat di link ini <a href="https://wanwanvm.github.io/Mendaftaran-Data-pada-blok-di-Kartu-RFID-dengan-Modul-RFID-RC522-menggunakan-ESP32/">https://wanwanvm.github.io/Mendaftaran-Data-pada-blok-di-Kartu-RFID-dengan-Modul-RFID-RC522-menggunakan-ESP32/</a>
 Langkah langkah pembuatnya  nya dapat di lihat seperti disawah ini :
 
 **Langkah-langkah yang harus dilakukan:**
@@ -54,9 +54,9 @@ Gambar Kolom Pada Google Sheet:
 ![_terminal]({{ site.baseurl }}/images/GOOGLE SHEET KARTU RFID.png)
 
 Ganti "SPREADSHEET_ID" dengan ID Spreadsheet dari langkah sebelumnya.
-Klik Deploy → New Deployment
-Pilih Web App, atur akses ke Anyone
-Klik Deploy dan salin URL API yang diberikan.
+- Klik Deploy → New Deployment
+- Pilih Web App, atur akses ke Anyone
+- Klik Deploy dan salin URL API yang diberikan.
 
 **4. Kode ESP32 untuk Membaca RFID & Mengirim ke Google Sheets**
 Copy kode berikut ke Arduino IDE dan sesuaikan SSID, password WiFi, serta URL Google Apps Script:
