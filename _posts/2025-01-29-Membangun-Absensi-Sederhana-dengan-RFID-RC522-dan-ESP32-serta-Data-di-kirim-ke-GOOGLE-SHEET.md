@@ -42,6 +42,7 @@ lebih lengkapnya bisa di lihat di gambar wiring di bawah ini :
 
 
 **3. Persiapan Google Sheets & Google Apps Script**
+
 **A. Buat Google Sheet**
 1. Buka Google Sheets
 2. Buat file baru dan beri nama "Data RFID"
@@ -75,5 +76,5 @@ Copy kode berikut ke Arduino IDE dan sesuaikan SSID, password WiFi, serta URL Go
 Gambar setelah dijalankan:
 ![_terminal]({{ site.baseurl }}/images/TERMINAL PENGIRIMAN RFID.png)
 
-**jika terdapat kegagalan pada saat proses kompilasi pada libraries MFRC522 bisa di lihat cara mengatasinya di <a href="https://wanwanvm.github.io/Mengatasi-Error-pada-Libary-Libraries-MFRC522-di-Arduino-Module-MFRC-522-RFID/“>https://wanwanvm.github.io/Mengatasi-Error-pada-Libary-Libraries-MFRC522-di-Arduino-Module-MFRC-522-RFID/</a>
+**jika terdapat kegagalan pada saat proses kompilasi pada libraries MFRC522 bisa di lihat cara mengatasinya di <a href="https://wanwanvm.github.io/Mengatasi-Error-pada-Libary-Libraries-MFRC522-di-Arduino-Module-MFRC-522-RFID/">https://wanwanvm.github.io/Mengatasi-Error-pada-Libary-Libraries-MFRC522-di-Arduino-Module-MFRC-522-RFID/</a>
 
