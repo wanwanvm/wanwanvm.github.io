@@ -54,7 +54,7 @@ lebih lengkapnya bisa di lihat di gambar wiring di bawah ini :
 <script src="https://gist.github.com/wanwanvm/1343b783e40745af2df71410a6fe7b7e.js"></script>
 
 Gambar Kolom Pada Google Sheet:
-![_terminal]({{ site.baseurl }}/images/GOOGLE SHEET KARTU RFID.png)
+![_terminal]({{ site.baseurl }}/images/google sheet absensi.png)
 
 Ganti "SPREADSHEET_ID" dengan ID Spreadsheet dari langkah sebelumnya.
 - Klik Deploy → New Deployment
