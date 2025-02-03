@@ -31,9 +31,11 @@ Langkah langkah pembuatnya  nya dapat di lihat seperti disawah ini :
 
 **2. Rangkaian Koneksi RFID-RC522 ke ESP32**
 Hubungkan modul RFID-RC522 ke ESP32 sebagai berikut:
+
 ![_koneksi]({{ site.baseurl }}/images/koneksi PIN RFID.png)
 
 lebih lengkapnya bisa di lihat di gambar wiring di bawah ini :
+
 ![_wiring]({{ site.baseurl }}/images/sensor-RFID-RC522-rev.png)
 
 ![_wiring]({{ site.baseurl }}/images/ESP32-RFIDRC522.JPG)
