@@ -58,3 +58,7 @@ Berikut adalah kode untuk ESP32 yang mengontrol relay berdasarkan pesan MQTT.
 - Fungsi reconnectMQTT(): Untuk mencoba menyambungkan ESP32 ke broker MQTT.
 - Fungsi setup(): Inisialisasi pin, WiFi, dan MQTT.
 - Fungsi loop(): Mengecek koneksi dan memproses pesan MQTT.
+
+**video Tutorial secara lengkap **
+
+{% youtube 4OtbvgsdfuA %}
